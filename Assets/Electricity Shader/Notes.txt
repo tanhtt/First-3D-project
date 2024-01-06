@@ -1,0 +1,25 @@
+This is Electricity shader  v4.0
+Supported DRX, DRX11, OpenGL, OpenGL ES.
+-------------------------------------------------------------
+There are three direction which distortion texture will was scrolling(X, Y). Grayscale is black/white shaders.
+-------------------------------------------------------------
+Properties details:
+-------------------------------------------------------------
+* Main color: Color was multiple to main texture
+* Main texture: The main of texture
+* Distortion texture: The texture emissive will was scrolling. You can change Tilling property to get other effect
+* Speed of UV distorion: This is speed to scroll distortion texture.
+* Distortion value: This is idensity of distortion texture
+-------------------------------------------------------------
+
+Tutorial: Make a particle effect:
+-------------------------------------------------------------
+* 1. You create a new particle system
+* 2. You create a new material, then change the shader to "Langvv/Electricity_..." shader.
+* 3. Add the material to particle system.
+* 4. Press the Play button, then select material in Project window to testing.
+-------------------------------------------------------------
+You can get more textures from:
+
+https://www.assetstore.unity3d.com/en/#!/publisher/1483
+-------------------------------------------------------------
